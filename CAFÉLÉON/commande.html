@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Caféléon</title>
+	<link rel="icon" href="style/images/PurpleCafe.png">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+
+<body>
+<img id="symbole-plus" src="style/images/plus.png" alt="symbole menu">
+<div class="navbar">
+	<nav class="nav-menu">
+	  <ul class="choices">
+	  	<li><a href="cafes.html">Cafés</a></li>
+	  	<li><a href="infos.html">En savoir plus</a></li>
+			<li><a href="commande.html">Commande</a></li>
+			<li><a href="commande.html"><img id="panier" src="style/images/panier.png" alt="Panier"></a></li>
+			<li>
+				<div class="wrap">
+		    	<div class="search">
+			      <input type="text" class="searchTerm" placeholder="Que cherchez-vous ?">
+			      <button type="submit" class="searchButton">
+			      ✔
+			     	</button>
+		   		</div>
+				</div>
+			</li>
+	  </ul>
+	</nav>
+</div>
+
+<div class="Titre-Commande"><h1>Votre commande <i>:</i></h1></div>
+
+<main>
+
+<div class="commande">
+	<div class="commande-ligne">
+		<img src="style/images/PurpleCafe.png" alt="Café violet">
+		<p id="qte">Quantité : </p>
+		<input class="quantité" type="number" value="1" name="quantity" min="1" max="5">
+		<p id="prix">4 € l'unité</p>
+	</div>
+
+	<div class="commande-ligne">
+		<img src="style/images/BrownCafe.png" alt="Café marron">
+		<p id="qte">Quantité : </p>
+		<input class="quantité" type="number" value="3" name="quantity" min="1" max="5">
+		<p id="prix">3 € l'unité</p>
+	</div>
+
+	<h1>Coordonnées</h1>
+
+	<div class="coord">
+		<form>
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Nom</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="email" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>E-mail</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Téléphone</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Adresse</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Code Postal</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Ville</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Numéro carte bancaire</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Nom du titulaire</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Cryptogramme visuel</label>
+    	</div>
+
+			<div class="group">      
+	      <input type="text" required>
+	      <span class="highlight"></span>
+	      <span class="bar"></span>
+	      <label>Date d'expiration</label>
+    	</div>
+
+			<div class="container">
+			  <button id="button">Valider</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+</main>
+
+<footer>
+<ul class="footer-choices">
+	  	<li><a href="cafes.html">Cafés</a></li>
+	  	<li><a href="infos.html">En savoir plus</a></li>
+	  	<li><a href="commande.html">Commande</a></li>
+</ul>
+<p>Design : Jérémy FAGGION</p>
+<p>jeremy.faggion@gmail.com</p>
+</footer>
+
+</body>
+</html>
